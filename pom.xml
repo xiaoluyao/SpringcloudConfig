@@ -7,9 +7,11 @@
     <groupId>com.yaolu</groupId>
     <artifactId>config-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
         <module>config-server</module>
-        <!--<module>config-client</module>-->
+        <module>config-client</module>
     </modules>
 
     <name>config-parent</name>
@@ -49,7 +51,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <build>
         <plugins>
             <plugin>
